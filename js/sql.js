@@ -181,7 +181,7 @@ function getQuestions_success(tx,results)
         var quest_div = "" +
             '<div data-role="page" data-dom-cache="true" id="quest' + question_no + '">' +
             '<div data-role="header">'+
-            '<h1> SQL+Java Quiz</h1> ' +
+            '<h1>Quiz</h1> ' +
             '</div>' +
             '<div data-role="content">' +
             '<p>' +  question_no  +  ". " +  quest.question + '</p>' +
